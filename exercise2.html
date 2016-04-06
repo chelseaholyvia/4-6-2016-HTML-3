@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+function beforeafter(ba) {
+    var pic;
+    if (ba == 0) {
+        pic = "derp.jpg"
+    } else {
+        pic = "V.jpg"
+    }
+    document.getElementById('KimTaehyung').src = pic;
+}
+</script>
+
+<img id="KimTaehyung" src="V.jpg" width="280" height="400">
+
+<p>
+<button type="button" onclick="beforeafter(1)">Before</button>
+<button type="button" onclick="beforeafter(0)">After</button>
+</p>
+
+</body>
+</html>
